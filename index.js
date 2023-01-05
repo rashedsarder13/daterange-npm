@@ -55,7 +55,11 @@ const dayEnum = {
 
 function daterange(dateType)
 {
-
+    return(
+        <div>
+            <button>Today</button>
+        </div>
+    )
 }
 
 module.export.daterange = daterange;
